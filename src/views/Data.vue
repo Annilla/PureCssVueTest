@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import api from '../promise5000.js'
+import api from '../promise.js'
 
 export default {
   data() {

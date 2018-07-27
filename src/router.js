@@ -12,8 +12,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'data',
     },
     {
       path: '/purecss',
@@ -22,8 +21,8 @@ export default new Router({
     },
     {
       path: '/data',
-      name: 'data',
-      component: Data
+      name: 'home',
+      component: Home
     }
   ]
 })

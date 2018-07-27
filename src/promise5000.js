@@ -45008,6 +45008,6 @@ let myFirstPromise = new Promise((resolve, reject) => {
   // 在實務中，您將可能使用像是 XHR 或者一個 HTML5 API.
   setTimeout(function(){
     resolve(data); // Yay！非常順利！
-  }, 3000);
+  }, 1000);
 });
 export default { myFirstPromise }
